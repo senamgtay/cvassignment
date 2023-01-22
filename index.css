@@ -1,0 +1,123 @@
+/* * {box-sizing: border-box;} */
+
+body { 
+    margin: 0;
+    font-family: Verdana, Geneva, sans-serif;
+  }
+  
+  .page{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 1px;
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    box-shadow: 0 3px 8px -3px rgba(0,0,0,0.7);
+  }
+
+  .header {
+    overflow: hidden;
+  }
+
+  .title {
+    float: center;
+    color: black;
+    text-align: center;
+    padding: 0px;
+    margin-top: 30px;
+    font-size: 19px; 
+    font-weight:bold;
+    /* line-height: 25px; */
+    /* border-radius: 4px; */
+  }
+
+ .content{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 75px;
+    margin-left: 75px;
+  }
+  p.a{
+    text-align: center;
+    line-height: 1.2;
+    font-size: 12px;
+  }
+
+  p.b{
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 0.1;
+    margin-bottom: 5px;
+    /* margin-left: 75px; */
+  }
+
+  p.c{
+    text-align: left;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 22px;
+  }
+
+  p.d{
+    text-align: left;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+
+  p.e{
+    text-align: left;
+    font-size: 12px;
+    margin-top: 0px;
+    padding-top: 0;
+    margin-bottom: 20px;
+  }
+
+
+
+  hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1.5px solid black;
+    font-weight: bold;
+  }
+  
+ 
+  p.titlejustifier{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    line-height: 0;
+    font-weight: bold;
+  }
+
+  p.myjustifier{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 22px;
+    
+  }
+
+  p.myjustifier-other{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  
+  
+  
